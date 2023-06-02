@@ -97,3 +97,8 @@ The Hangman game is a fun game that helps improve language skills and logical th
 
 ### Development
 <img src="https://img.shields.io/badge/java-2A6379?style=for-the-badge&logo=java&logoColor=white">
+
+---
+
+# 🌏 라이선스(license)
+Open Source
