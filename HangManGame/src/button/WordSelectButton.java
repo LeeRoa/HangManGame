@@ -56,8 +56,6 @@ public class WordSelectButton extends JButton {
 							++count;
 						}
 					}
-					System.out.println("hitCount: " + count);
-					System.out.println(TextPanel.hitWords.size());
 					if (count == TextPanel.hitWords.size()) {
 						for (WordSelectButton btn : btns) {
 							btn.setVisible(false);
@@ -77,7 +75,6 @@ public class WordSelectButton extends JButton {
 				} else {
 					setVisible(false);
 					--life;
-					System.out.println("life: " + life);
 
 					if (life == 9) {
 						StagePanel.head.setVisible(true);
@@ -104,6 +101,12 @@ public class WordSelectButton extends JButton {
 						
 						for (WordSelectButton btn : btns) {
 							btn.setVisible(false);
+						}
+						
+						int i = 0;
+						for (JLabel word : TextPanel.hitWords) {
+							char[] hit = StagePanel.hit.toCharArray();
+							word.setText(String.valueOf(hit[i++]));
 						}
 						
 						SwingUtilities.invokeLater(() -> {
