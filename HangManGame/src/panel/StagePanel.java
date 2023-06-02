@@ -81,20 +81,20 @@ public class StagePanel extends JPanel {
 	List<WordSelectButton> alphabetBtns = new ArrayList<>();
 
 	// 행맨
-	public static JLabel head = new HangManLabel("HangMan/ui/hangMan/head.png", 999, 415, 60, 60);
-	public static JLabel body = new HangManLabel("HangMan/ui/hangMan/body.png", 1024, 475, 10, 140);
-	public static JLabel leftArm = new HangManLabel("HangMan/ui/hangMan/left_armOrLeg.png", 944, 475, 85, 65);
-	public static JLabel leftLeg = new HangManLabel("HangMan/ui/hangMan/left_armOrLeg.png", 945, 606, 85, 65);
-	public static JLabel rightArm = new HangManLabel("HangMan/ui/hangMan/right_armOrLeg.png", 1026, 475, 85, 65);
-	public static JLabel rightLeg = new HangManLabel("HangMan/ui/hangMan/right_armOrLeg.png", 1027, 606, 85, 65);
-	public static JLabel leftHand = new HangManLabel("HangMan/ui/hangMan/left_handOrFoot.png", 914, 524, 44, 44);
-	public static JLabel leftFoot = new HangManLabel("HangMan/ui/hangMan/left_handOrFoot.png", 914, 654, 44, 44);
-	public static JLabel rightHand = new HangManLabel("HangMan/ui/hangMan/right_handOrFoot.png", 1096, 524, 44, 44);
-	public static JLabel rightFoot = new HangManLabel("HangMan/ui/hangMan/right_handOrFoot.png", 1096, 654, 44, 44);
-	public static JLabel deadFace = new HangManLabel("HangMan/ui/hangMan/dead_face.png", 999, 415, 60, 60);
-	public static JLabel deathHangMan = new HangManLabel("HangMan/ui/hangMan/death_hangMan.png", 999, 415, 493, 331);
+	public static JLabel head = new HangManLabel("ui/hangMan/head.png", 999, 415, 60, 60);
+	public static JLabel body = new HangManLabel("ui/hangMan/body.png", 1024, 475, 10, 140);
+	public static JLabel leftArm = new HangManLabel("ui/hangMan/left_armOrLeg.png", 944, 475, 85, 65);
+	public static JLabel leftLeg = new HangManLabel("ui/hangMan/left_armOrLeg.png", 945, 606, 85, 65);
+	public static JLabel rightArm = new HangManLabel("ui/hangMan/right_armOrLeg.png", 1026, 475, 85, 65);
+	public static JLabel rightLeg = new HangManLabel("ui/hangMan/right_armOrLeg.png", 1027, 606, 85, 65);
+	public static JLabel leftHand = new HangManLabel("ui/hangMan/left_handOrFoot.png", 914, 524, 44, 44);
+	public static JLabel leftFoot = new HangManLabel("ui/hangMan/left_handOrFoot.png", 914, 654, 44, 44);
+	public static JLabel rightHand = new HangManLabel("ui/hangMan/right_handOrFoot.png", 1096, 524, 44, 44);
+	public static JLabel rightFoot = new HangManLabel("ui/hangMan/right_handOrFoot.png", 1096, 654, 44, 44);
+	public static JLabel deadFace = new HangManLabel("ui/hangMan/dead_face.png", 999, 415, 60, 60);
+	public static JLabel deathHangMan = new HangManLabel("ui/hangMan/death_hangMan.png", 999, 415, 493, 331);
 	
-	ImageIcon panel_icon = new ImageIcon("HangMan/ui/background/stage.png");
+	ImageIcon panel_icon = new ImageIcon("ui/background/stage.png");
 	Image panel_image = panel_icon.getImage();
 	
 	public StagePanel(JFrame parent) {

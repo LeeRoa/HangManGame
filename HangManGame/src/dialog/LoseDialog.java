@@ -16,9 +16,9 @@ import label.TextPanel;
 
 public class LoseDialog extends JDialog {
 	
-	JLabel gameOverLabel = new JLabel(new ImageIcon("HangMan/ui/label/game_over.png"));
+	JLabel gameOverLabel = new JLabel(new ImageIcon("ui/label/game_over.png"));
 	JPanel clearPanel = new JPanel();
-	JButton playAgainBtn = new JButton(new ImageIcon("HangMan/ui/button/play_again_button.png"));
+	JButton playAgainBtn = new JButton(new ImageIcon("ui/button/play_again_button.png"));
 	
 	public LoseDialog(JFrame parent) {
 		

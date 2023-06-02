@@ -22,13 +22,13 @@ public class TextPanel extends JPanel {
 
 		String url = "";
 		if (len == 4) {
-			url = "HangMan/ui/label/word_4.png";
+			url = "ui/label/word_4.png";
 		} else if (len == 5) {
-			url = "HangMan/ui/label/word_5.png";
+			url = "ui/label/word_5.png";
 		} else if (len == 6) {
-			url = "HangMan/ui/label/word_6.png";
+			url = "ui/label/word_6.png";
 		} else {
-			url = "HangMan/ui/label/word_7.png";
+			url = "ui/label/word_7.png";
 		}
 		
 		// 정답 길이에 따라 미리 라벨 리스트를 생성

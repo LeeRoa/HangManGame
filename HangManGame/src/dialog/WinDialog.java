@@ -17,11 +17,11 @@ import label.TextPanel;
 
 public class WinDialog extends JDialog {
 	
-	JLabel youWinLabel = new JLabel(new ImageIcon("HangMan/ui/label/you_win.png"));
-	JLabel party = new JLabel(new ImageIcon("HangMan/ui/label/party.gif"));
+	JLabel youWinLabel = new JLabel(new ImageIcon("ui/label/you_win.png"));
+	JLabel party = new JLabel(new ImageIcon("ui/label/party.gif"));
 	
 	JPanel clearPanel = new JPanel();
-	JButton playAgainBtn = new JButton(new ImageIcon("HangMan/ui/button/play_again_button.png"));
+	JButton playAgainBtn = new JButton(new ImageIcon("ui/button/play_again_button.png"));
 	
 	
 	public WinDialog(JFrame parent) {

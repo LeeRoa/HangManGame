@@ -14,11 +14,11 @@ import frame.MainFrame;
 
 public class MainPanel extends JPanel {
 
-	ImageIcon panel_icon = new ImageIcon("HangMan/ui/background/start_background.png");
+	ImageIcon panel_icon = new ImageIcon("ui/background/start_background.png");
 	Image panel_image = panel_icon.getImage();
 
 	// 버튼
-	JButton startBtn = new JButton(new ImageIcon("HangMan/ui/button/start_button.png"));
+	JButton startBtn = new JButton(new ImageIcon("ui/button/start_button.png"));
 	
 	public MainPanel() {
 		
