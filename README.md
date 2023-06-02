@@ -89,6 +89,12 @@ The Hangman game is a fun game that helps improve language skills and logical th
 * [jdk1.8.0_281](https://www.oracle.com/kr/java/technologies/downloads/)
 * [Eclipse 4.19](https://www.eclipse.org/downloads/packages/)
 
+
+## 실제 프로그램 화면
+<p align="center">
+  <img src=https://github.com/LeeRoa/HangManGame/assets/132882290/ad1cedcc-758c-4856-8507-ce41a63f4282 width=1000>
+</p>
+
 ---
 
 # 🎢 기술 스택(Stacks)
