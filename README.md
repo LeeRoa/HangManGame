@@ -18,7 +18,7 @@
     <td rowspan="3" width = 500>안녕하세요 백엔드 개발자 이로아입니다.</td>
   <tr>
     <td> 
-      <img src="원하는 이미지 url" width = 200>
+      <img src="https://github.com/LeeRoa/HangManGame/assets/132882290/08650c7b-c203-4fcc-9737-09ff3232417e" width = 200>
     </td>
   </tr>
   <tr>
