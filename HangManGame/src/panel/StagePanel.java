@@ -102,7 +102,7 @@ public class StagePanel extends JPanel {
 		// 정답 생성
 		ranNum = (int)(Math.random() * words.length);
 		hit = words[ranNum];
-		System.out.println(hit);
+//		System.out.println(hit);
 
 		// 정답 길이에 따라 나타나는 텍스트 필드
 		JPanel textPanel = new TextPanel(hit.length());

@@ -13,6 +13,7 @@ import button.WordSelectButton;
 import color.MyColor;
 import frame.MainFrame;
 import label.TextPanel;
+import panel.StagePanel;
 
 public class LoseDialog extends JDialog {
 	
@@ -37,6 +38,8 @@ public class LoseDialog extends JDialog {
 				}
 				TextPanel.hitWords.clear();
 				WordSelectButton.life = 10;
+				StagePanel.score = 0;
+				StagePanel.scoreLabel.setText(StagePanel.score.toString());
 				new MainFrame();
 			}
 		});
